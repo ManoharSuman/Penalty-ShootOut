@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:yellowgreen;
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+}
+.container{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    margin-top: 100px;
+    border-radius: 20px;
+
+}
+.container > .row{
+    width: 100%;
+    justify-content: space-evenly;
+}
+.row{
+    display: flex;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.team-name{
+    margin: 20px 0px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.profile-icon{
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    border-radius: 50px;
+    border: 2px solid bisque;
+}
+
+.final-score{
+    font-size: xx-large;
+}
+
+.final-score > span {
+    margin: 0px 5px;
+}
+
+.round-score{
+    font-size: xx-large;
+    width: 200px;
+    justify-content: space-evenly;
+}
+
+#bat-button{
+    font-size: x-large;
+    width: 200px;
+    background: linear-gradient(135deg,yellow,blue);
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+}
+
+#result{
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-size: xx-large;
+    background: linear-gradient(100deg,yellow,blue);
+    display: flex;
+    justify-content: center;
+}
+.try-button{
+    font-size: x-large;
+    width: 200px;
+    background: linear-gradient(135deg,yellow,blue);
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 20px;
+    color:white;
+    display: flex;
+    justify-content: center;
+}

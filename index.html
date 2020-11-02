@@ -1,0 +1,62 @@
+ <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="\style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img class="profile-icon" src="./Images/Real_Madrid.png" alt="Real Madrid" height="150px" width="150px">
+                    <span class="team_name" id="team-1-name">Real Madrid</span>
+                    <div class="row round-score " id="team-1-round-runs">
+                        <span class="col">-</span>
+                        <span class="col">-</span>
+                        <span class="col">-</span>
+                        <span class="col">-</span>
+                        <span class="col">-</span>
+                        <span class="col">-</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="row final-score">
+                        <span id="team-1-score"></span>
+                        <span>-</span>
+                        <span id="team-2-score"></span>
+                    </div>
+                </div>
+                <div class="col">
+                    <img class="profile-icon" src="./Images/FC_Barcelona.png" alt="FC Barcelona" height="150px" width="150px">
+                    <span class="team_name" id="team-2-name">FC Barcelona</span>
+                    <div class="row round-score" id="team-2-round-runs">
+                        <span class="col">-</span>
+                        <span class="col">-</span>
+                        <span class="col">-</span>
+                        <span class="col">-</span>
+                        <span class="col">-</span>
+                        <span class="col">-</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <button id="bat-button" onclick="handleStrikeButton()"></button>
+                </div>
+                <div class="col try-button">
+                    <input type="button" onclick="window.location.reload();" value="TRY AGAIN"/>
+                </div>
+                <div class="col" id="result" hidden> </div>
+            </div>
+            
+        </div>
+    
+        <!-- Including JS File -->
+        <script src="./app.js"></script>
+        </div>
+    </body>
+</html>
